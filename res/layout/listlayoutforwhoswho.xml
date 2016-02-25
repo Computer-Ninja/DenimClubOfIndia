@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+	<TextView android:id="@+id/tvlistlayoutforwhoswhointro"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:textColor="#000000"
+	    android:text="asdfasdfasdfsa"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlistlayoutforwhoswhointro" >
+
+        <ListView
+            android:id="@+id/listviewwhoswho"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </RelativeLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:weightSum="2"
+    android:layout_alignParentBottom="true">
+   <Button
+       	android:id="@+id/bwhoswhoprev"
+        android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_gravity="bottom"
+       android:text="Prev"
+       android:layout_weight="0.8"
+       
+       />
+   <TextView 
+       android:id="@+id/tvwhoswhopage"
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_weight="0.4"
+       android:text="1"
+       android:textSize="25dp"
+       android:paddingTop="5dp"
+       android:layout_marginTop="5dp"
+       android:gravity="center"
+       android:background="#eeeeee"/>
+   <Button 
+       android:id="@+id/bwhoswhonext"
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_gravity="bottom"
+       android:text="Next"
+       
+       android:layout_weight="0.8"
+       
+       />
+   
+   </LinearLayout>
+</RelativeLayout>

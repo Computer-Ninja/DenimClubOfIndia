@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bhomeMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Message" />
+
+        <Button
+            android:id="@+id/bhomeWho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Who&apos;s Who" />
+
+        <Button
+            android:id="@+id/bhomeBusiness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Business" />
+
+        <Button
+            android:id="@+id/bhomeProfessional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Professional" />
+
+        <Button
+            android:id="@+id/bhomeSponsors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Sponsors" />
+
+        <Button
+            android:id="@+id/bhomeAdvertiser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Advertisers" />
+
+      
+
+        <Button
+            android:id="@+id/bhomeLoginLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/bhomeSubscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Subscribe" />
+ 
+        <Button
+            android:id="@+id/bhomeContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Contact" />
+ 
+               
+        
+        </LinearLayout>
+
+</ScrollView>

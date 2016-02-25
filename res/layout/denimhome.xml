@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_pattern"
+	android:padding="20dp"     >
+
+    
+
+        <Button
+            android:id="@+id/bdenimhomeDenimNews"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_weight="1.0"
+            android:text="Denim News"
+            android:alpha="0.5"
+            android:textColor="#ffffff"
+             android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/bdenimHomeMembers"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_weight="1.0"
+            android:text="Members" 
+            android:alpha="0.5"
+            android:textColor="#ffffff"
+             android:layout_marginBottom="20dp"/>
+   
+        <Button
+            android:id="@+id/bdenimHomeDirectory"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_weight="1.0"
+            android:text="Denim Directory"
+            android:alpha="0.5"
+            android:textColor="#ffffff"
+             android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/bdenimHomeHandloom"
+            android:layout_width="fill_parent"
+            android:layout_height="100.0dip"
+            android:layout_weight="1.0"
+            android:text="Handloom"
+            android:alpha="0.5"
+            android:textColor="#ffffff"
+              
+             android:layout_marginBottom="20dp"/>
+    
+</LinearLayout>

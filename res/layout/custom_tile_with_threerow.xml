@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp" >
+
+    <TextView
+        android:id="@+id/tVTileRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="john Hansonasdfasfasdfasdfasfdsad"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:ellipsize="end"
+        android:textSize="20dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/tVTileRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Denim Club India"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="right" 
+        android:paddingRight="20dp"
+        android:layout_margin="5dp"
+         android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tVTileRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_gravity="right" 
+        android:paddingRight="20dp"
+         android:layout_margin="5dp"
+         android:textSize="13dp" />
+    
+
+</LinearLayout>

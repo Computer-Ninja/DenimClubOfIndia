@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/lvadvertiserlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:elevation="-5dp"
+        android:padding="5dp" 
+        android:paddingBottom="20dp"/>
+
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/badvertiserlistprev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.8"
+            android:text="Prev" />
+
+        <TextView
+            android:id="@+id/tvadvertiserlistpage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.4"
+            android:background="#eeeeee"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="1"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/badvertiserlistnext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.8"
+            android:text="Next" />
+    </LinearLayout>
+
+</RelativeLayout>

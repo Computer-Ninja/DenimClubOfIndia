@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/uiUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                
+                android:src="@drawable/ic_launcher" />
+            <requestFocus />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denim Club India" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.0dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User ID"
+                android:paddingLeft="15dp"
+                android:textSize="20.0dip" />
+
+            <EditText
+                android:id="@+id/etUserId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:hint="User Id"
+                android:singleLine="true"
+                android:background="@drawable/textview_design"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:inputType="textEmailAddress"
+                android:autoText="true"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:text="Password"
+                android:textSize="20.0dip"
+                android:paddingLeft="15dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5.0dip"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:background="@drawable/textview_design"
+                    android:padding="10dp"
+                android:layout_margin="10dp"  />
+
+                <TextView
+                    android:id="@+id/tvForgotPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/etPassword"
+                    android:layout_below="@id/etPassword"
+                    android:clickable="true"
+                    android:text="Forgot Password?" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/bLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="Login"
+                android:background="@android:color/holo_blue_dark" 
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp" />
+
+            <Button
+                android:id="@+id/bSubscribe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Subscribe"
+                android:background="@android:color/holo_green_dark"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

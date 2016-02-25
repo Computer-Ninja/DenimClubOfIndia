@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deepak.dci"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyAppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+
+            <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DenimHome"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DenimDirectoryHomeMenu"
+            android:label="Denim Directory Home" >
+        </activity>
+        <activity
+            android:name=".Message"
+            android:label="Message" >
+        </activity>
+        <activity
+            android:name=".WhosWho"
+            android:label="Who is Who in Denim Industry" >
+        </activity>
+        <activity
+            android:name=".BusinessMenu"
+            android:label="Value Chain Segments :: Business Listing" >
+        </activity>
+        <activity
+            android:name=".ProfessionalMenu"
+            android:label="Value Chain Segments :: Professionals Listing" >
+        </activity>
+        <activity
+            android:name=".Sponsors"
+            android:label="Sponsors of Denim Business Directory" >
+        </activity>
+        <activity
+            android:name=".AdvertiserList"
+            android:label="Advertisements :: Denim Business Directory" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name=".Subscribe"
+            android:label="Subscribe" >
+        </activity>
+        <activity
+            android:name=".Advertiser"
+            android:label="Advertiser" >
+        </activity>
+        <activity
+            android:name=".Business"
+            android:label="Business" >
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="Contact Us @ Denim Club India" >
+        </activity>
+        <activity
+            android:name=".ForgetPassword"
+            android:label="Retrieve Password" >
+        </activity>
+        <activity
+            android:name=".ListWithCustomTiles"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SubscriptionForm"
+            android:label="Subscribe" >
+        </activity>
+        <activity
+            android:name=".WhosWhoDetail"
+            android:label="DBD Search" >
+        </activity>
+        <activity
+            android:name=".SuccessfulLogin"
+            android:label="Successful Login" >
+        </activity>
+        <activity
+            android:name=".Recycleviewlist"
+            android:label="Successful Login" >
+        </activity>
+        <activity
+            android:name=".BusinessCompanyList"
+            android:label="Value Chain Segments :: Business Listing" >
+        </activity>
+        <activity
+            android:name=".ProfessionalList"
+            android:label="Professionals :: Professionals Listing " >
+        </activity>
+         <activity
+            android:name=".ProfessionalDetail"
+            android:label="Professional" >
+        </activity>
+        <activity
+            android:name=".MessageList"
+            android:label="Blessings &amp; Support from Thought-Leaders" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Blessings &amp; Support from Thought-Leaders" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg_pattern" >
+   
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:weightSum="5" >
+    <ListView
+        android:id="@+id/listviewlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="4dp"
+        android:divider="#555555"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:alpha="0.8" 
+        android:layout_weight="1"/>
+	
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:weightSum="2"
+    android:layout_alignParentBottom="true"
+    android:layout_weight="4">
+   <Button
+       	android:id="@+id/blistlayoutonlyprev"
+        android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_gravity="bottom"
+       android:text="Prev"
+       android:layout_weight="0.8"
+       
+       />
+   <TextView 
+       android:id="@+id/tvlistlayoutonlypage"
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_weight="0.4"
+       android:text="1"
+       android:textSize="25dp"
+       android:paddingBottom="5dp"
+       android:layout_marginTop="5dp"
+       android:gravity="center"
+       android:layout_gravity="bottom"
+       
+       android:background="#eeeeee"/>
+   <Button 
+       android:id="@+id/blistlayoutonlynext"
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_gravity="bottom"
+       android:text="Next"
+       
+       
+       android:layout_weight="0.8"
+       
+       />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

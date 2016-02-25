@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="20dp">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8.0dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:text="Subscribe to Denim Business Directory Service"
+                android:textSize="25.0dip" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="200.0dip" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        android:padding="8.0dip"
+                        android:text="The Denim Business Directory is a paid resource. After you have subscribed, you will be able to access the entire content of directory through the online interface.  The subscription fee for a Single User for One Year is INR 5000 / USD 100 plus 12.36% service tax.  The members of Denim Business Network are entitled to a special discount of 20%, and have to pay only INR 4000 / USD 80 plus 12.36% service tax."
+                        android:textSize="18.0dip" />
+                </LinearLayout>
+            </ScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose your country" />
+
+            <Spinner
+                android:id="@+id/sCountry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:addStatesFromChildren="true"
+                android:entries="@array/array_country" />
+
+            <CheckBox
+                android:id="@+id/cbMember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already Member?" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Payment mode" />
+
+            <Spinner
+                android:id="@+id/sSubscribePaymentmode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:addStatesFromChildren="true"
+                android:entries="@array/array_paymentmode" />
+
+            <CheckBox
+                android:id="@+id/cbTermCond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I accept the terms and conditions" />
+            <TextView 
+                android:id="@+id/tvsubtermcond"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+</LinearLayout>
+<Button
+        android:id="@+id/bSubsProceed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Proceed" 
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        />
+</RelativeLayout>
